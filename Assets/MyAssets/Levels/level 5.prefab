@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &200142521506351500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3567804697591395800}
+  - component: {fileID: -1868207686880436512}
+  m_Layer: 0
+  m_Name: level 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3567804697591395800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200142521506351500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1868207686880436512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200142521506351500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87011e7fc10a14542bdf3f19f6d0efa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadPrefabs:
+  - {fileID: 6596814031017235465, guid: b6e158d4c7f354440aed1a94a6e6fc77, type: 3}
+  - {fileID: 8626952236515546095, guid: 0d1166fb14d134f439b476123dea69ab, type: 3}
+  ItemSetPrefabs:
+  - {fileID: 8273590990996430426, guid: 4e6e1a2d4859db74fa1c220645b82162, type: 3}
+  - {fileID: 5547851066163672613, guid: 0400e3cb155035f498f7348776807a27, type: 3}
+  - {fileID: 4825816336246458574, guid: ae6ceea73c3b02e4b8d8929048f18916, type: 3}
+  - {fileID: 3581901854793717232, guid: 12f40dd262242cf4498950231436de3d, type: 3}
+  - {fileID: 7653910384033000019, guid: dce9b65b79c2dfa4e9ef6a5ac2cf5f6e, type: 3}
+  - {fileID: 4319163052404497206, guid: 3c25f3d23e5a65041be84823f0056935, type: 3}
+  - {fileID: 5926443597669435160, guid: 38f3f63a7ba627b48acd2b041845bff5, type: 3}
+  - {fileID: 1728301550877784178, guid: 013d7f65ff74d3f4fb97bc0dc2e3e95c, type: 3}
+  - {fileID: 5748785545258767569, guid: b1b3ed105cb15664fa8dd77f464e12a7, type: 3}
+  - {fileID: 5914937727483249554, guid: b66435f487094104fa67b262278b25b8, type: 3}
+  - {fileID: 8142431876842635851, guid: 11b9356ef6b378744910d937e1e6c305, type: 3}
+  stage_Length_in_block: 18
+  endPoint: {fileID: 3967989874336306863, guid: 6b995106339bada438af0838e2eb35dd, type: 3}
+  needScore: 100
+  boss_distance: 10
